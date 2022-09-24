@@ -1,5 +1,4 @@
 import React from 'react';
-import ImageSlide from './ImageSlide';
 
 const Parent = () => (
   <>
@@ -13,7 +12,7 @@ const Parent = () => (
     </style>
     <div>
       <div className='content'>
-        <ImageSlide />
+        <p>Hello world!</p>
       </div>
     </div>
   </>
