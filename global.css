@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Abril Fatface";
+  src: local("Abril Fatface"), url("./public/AbrilFatface-Regular.ttf") format("truetype");
+}
+
+:root {
+  --primary: #D1B000;
+  --text: #484848;
+}
+
+body {
+  margin: 0;
+}
