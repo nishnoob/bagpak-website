@@ -39,7 +39,7 @@ const Footer = () => {
         .contact-info .usp-divider {
           border-left: 1px solid #ddd;
           margin: 0 2rem;
-          height: 50px;
+          height: 150px;
           width: 5px;
         }
 
@@ -73,6 +73,10 @@ const Footer = () => {
           flex-direction: column;
           align-items: start;
         }
+        a {
+          text-decoration: none;
+          color: lightgrey;
+        }
 
         @media (max-width:768px) {
           footer {
@@ -103,10 +107,12 @@ const Footer = () => {
         <h3>Contact us</h3>
         <div className="contact-container">
           <div className="texts">
-            <div>+968 9118 0162</div>
-            <div>info@bagpaks.com</div>
+            <div><a href="tel:+96892208039">+968 9220 8039</a></div>
+            <div><a href="tel:+96892240805">+968 9224 0805</a></div>
+            <div><a href="tel:+96891180162">+968 9118 0162</a></div>
+            <div><a href="mailto:info@bagpaks.com">info@bagpaks.com</a></div>
           </div>
-          <div className="exception"><div className="usp-divider" /><i className="ri-map-pin-line ri-2x" />Phase 7,<br/>Sohar Industrial City,<br/>Sultanate of Oman</div>
+          <div className="exception"><div className="usp-divider" /><i className="ri-map-pin-line ri-2x" />Plot No. 25, Squara 4,<br/>P.O. Box: 170, PC: 311,<br/>Fala Al - Ouhi Industrial Area,<br/>Sohar, Sultanate of Oman</div>
         </div>
         {/* <div className="legal">© 2023 Company. All rights reserved.</div> */}
       </div>

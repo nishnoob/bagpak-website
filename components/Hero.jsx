@@ -61,7 +61,7 @@ const HeroSection = () => {
           <div className="logo">
             <img src="/bagpaks-logo.png" alt="Bagpaks Logo" />
           </div>
-          <p className="main-text">Industry leading <br/> Polypropylene (PP) FIBC <br/> Manufacturers</p>
+          <h1 className="main-text">Industry leading <br/> Polypropylene (PP) FIBC <br/> Manufacturers</h1>
         </div>
       </div>
     </div>
